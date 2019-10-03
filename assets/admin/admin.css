@@ -1,0 +1,134 @@
+.wolfie-modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	max-width: 800px;
+	width: 100%;
+	height: 545px;
+	background: white;
+	border-radius: 8px !important;
+	z-index: 10000;
+}
+.wolfie-back-overflow {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #c0c5ffb5;
+	z-index: 9998;
+	overflow-y: scroll;
+}
+.close {
+	cursor: pointer;
+}
+.wolfie-modal-header {
+	display: flex;
+	align-items: center;
+	padding: 8px 20px;
+	position: relative;
+	background: pink;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.modal-body {
+	display: flex;
+	justify-content: flex-start !important;
+	padding: 20px;
+	flex-wrap: wrap;
+}
+.modal-body > .shortcode-wrapper {
+	width: 15%;
+	font-size: 40px;
+	margin-right: 1.5%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	flex-direction: column;
+}
+.modal-body > .shortcode-wrapper p  {
+	margin-bottom: 0px;
+	margin-top: 2px;
+}
+.modal-body > .shortcode-wrapper:hover {
+	background: #ffc0cb;
+	cursor: pointer;
+}
+.wolfie-modal-header i  {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+.wolfie-fixed {
+	overflow-y: hidden;
+}
+
+/*shortcodeModal*/
+.shortcode-modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	max-width: 600px;
+	width: 100%;
+	height: 545px;
+	background: white;
+	border-radius: 8px !important;
+	z-index: 100000;
+	display: flex;
+	flex-direction: column;
+}
+.shortcode-overflow {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: black;
+	opacity: 0.8;
+	z-index: 99999;
+}
+.wolfie-modal-form-body {
+	padding: 20px;
+}
+.wolfie-modal-form-body label {
+	display: block;
+}
+.w-100 {
+	width: 100%;
+}
+.w-50 {
+	width: 50%;
+}
+.wolfie-modal-form-footer {
+	padding: 8px 20px;
+	background: lightgrey;
+	margin: auto;
+	margin-bottom: 0px;
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+    box-sizing: border-box;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    align-items: center;
+}
+.wolfie-modal-form-footer > * {
+	margin-right: 15px !important;
+}
+.closeShortcode {
+	cursor:pointer;
+}
+.shortcode-modal .wolfie-img-container img {
+	width: 50px;
+}
+.shortcode-modal .wolfie-form-group {
+	margin-bottom: 6px;
+}

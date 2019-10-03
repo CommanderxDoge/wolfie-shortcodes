@@ -1,0 +1,31 @@
+#content {
+	max-width: 1200px;
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+.wolfie-tabs-nav {
+	display: flex;
+}
+.wolfie-tabs-nav .tab {
+	padding: 8px 20px;
+	background: red;
+	color: white;
+	margin-right: 5px;
+	cursor: pointer;
+}
+.wolfie-tabs-nav .tab:hover {
+	background: darkred;
+}
+.wolfie-tabs-nav .tab.active {
+	background: darkred;
+}
+.wolfie-tabs-nav .wolfie-tabs-body {
+
+}
+.wolfie-tabs .wolfie-tabs-body  .wolfie-tab-content {
+	display: none;
+}
+.wolfie-tabs .wolfie-tabs-body > .wolfie-tab-content.active {
+	display: block;
+}
